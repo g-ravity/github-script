@@ -30,7 +30,8 @@ Avoid the hassles of mouse, clicks and browser.
   ```
 - Run the script using the following command in terminal
   ```python
-  python github.py
+  > cd src
+  > python -B github.py
   ```
 - Enter the name of repositories to be deleted, separated by a space
 
