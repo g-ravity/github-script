@@ -63,7 +63,7 @@ def deleteRepo(repo_list):
             print(f"Error: {err}")
 
 
-with open("info.json") as file:
+with open("../info.json") as file:
     data = json.load(file)
     username = data["username"]
     email = data["email"]
