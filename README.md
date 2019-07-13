@@ -53,4 +53,4 @@ Avoid the hassles of mouse, clicks and browser.
 
 ## License
 
-This project is licensed under MIT License
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/g-ravity/github-script/blob/master/LICENSE.md) file for details
