@@ -15,10 +15,6 @@ Avoid the hassles of mouse, clicks and browser.
 
 - You need to have Chrome installed. Download it [here](https://www.google.com/intl/en_sg/chrome/)
 - You need to have Python installed. Download it [here](https://www.python.org/downloads/)
-- Install **selenium** using the following command inside the project directory
-  ```python
-  pip install selenium
-  ```
 - You need to install the Chrome Webdriver for your current version of Chrome
   - Check your current version of Chrome from Control Panel
   - Download ChromeDriver [here](http://chromedriver.chromium.org/downloads)
@@ -28,6 +24,10 @@ Avoid the hassles of mouse, clicks and browser.
 
 - Download/Clone the project
 - Add your github credentials in the **info.json** file
+- Inside the project directory, install **selenium** using the following command
+  ```python
+  pip install selenium
+  ```
 - Run the script using the following command in terminal
   ```python
   python github.py
