@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="https://github.com/g-ravity/github-script/github.png"/>
-    [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
-    [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+    <img src="https://github.com/g-ravity/github-script/blob/master/github.png"/>
+    <img src="https://forthebadge.com/images/badges/fuck-it-ship-it.svg"/>
+    <img src="https://forthebadge.com/images/badges/made-with-python.svg"/>
 </p>
 
 # Github Script
@@ -31,8 +31,9 @@ Avoid the hassles of mouse, clicks and browser.
 
 ## Features To Be Added
 
--[] Creating a repository
--[] Cloning a repository -[x] Deleting a repository
+- [] Creating a repository
+- [] Cloning a repository
+- [x] Deleting a repository
 
 ## How Does It Work?
 
@@ -46,4 +47,5 @@ Avoid the hassles of mouse, clicks and browser.
 **Ravik Ganguly**
 
 ##License
+
 This project is licensed under MIT License
