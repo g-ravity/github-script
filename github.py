@@ -11,6 +11,7 @@ driver = None
 def setup():
     global driver
 
+    # Initializing chrome in headless mode
     options = webdriver.ChromeOptions()
     options.add_argument("headless")
     options.add_argument("--window-size=1920,1080")
@@ -19,6 +20,7 @@ def setup():
 
     driver.get("https://github.com/")
 
+    # Completing the login process
     sign_in = driver.find_element_by_link_text("Sign in")
     sign_in.click()
 
