@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300" src="https://github.com/g-ravity/github-script/blob/master/github.png"/>
+    <img width="300" src="https://github.com/g-ravity/github-script/blob/master/assets/github.png"/>
     <br>
     <img src="https://forthebadge.com/images/badges/made-with-python.svg"/>
     <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg"/>
