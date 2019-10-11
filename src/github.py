@@ -31,7 +31,7 @@ def setup():
     email_elem.send_keys(email)
     password_elem.send_keys(password)
     login_btn = driver.find_element(
-        By.XPATH, '//*[@id="login"]/form/div[3]/input[4]')
+        By.XPATH, '//*[@id="login"]/form/div[3]/input[8]')
     login_btn.click()
 
 
