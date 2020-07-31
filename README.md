@@ -18,7 +18,7 @@ Avoid the hassles of mouse, clicks and browser.
 - You need to install the Chrome Webdriver for your current version of Chrome
   - Check your current version of Chrome from Control Panel
   - Download ChromeDriver [here](http://chromedriver.chromium.org/downloads)
-  - Save the .exe file, copy it's path, and add it to PATH in environment variables
+  - Save the .exe file in the python installation folder, copy it's path, and add it to PATH in environment variables
 
 ## Usage
 
@@ -26,12 +26,12 @@ Avoid the hassles of mouse, clicks and browser.
 - Add your github credentials in the **info.json** file
 - Inside the project directory, install **selenium** using the following command
   ```python
-  pip install selenium
+  py -m pip install selenium
   ```
 - Run the script using the following command in terminal
   ```python
   > cd src
-  > python -B github.py
+  > py -B github.py
   ```
 - Enter the name of repositories to be deleted, separated by a space
 

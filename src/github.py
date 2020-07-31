@@ -15,7 +15,7 @@ def setup():
     options = webdriver.ChromeOptions()
     options.add_argument("headless")
     options.add_argument("--window-size=1920,1080")
-    options.add_argument('--ignore-certificate-errors')
+    options.add_argument("--ignore-certificate-errors")
     driver = webdriver.Chrome(options=options)
 
     driver.get("https://github.com/")
@@ -31,7 +31,7 @@ def setup():
     email_elem.send_keys(email)
     password_elem.send_keys(password)
     login_btn = driver.find_element(
-        By.XPATH, '//*[@id="login"]/form/div[3]/input[8]')
+        By.XPATH, '//*[@id="login"]/form/div[4]/input[9]')
     login_btn.click()
 
 
@@ -44,15 +44,15 @@ def deleteRepo(repo_list):
 
             elem = driver.find_element_by_link_text("Settings")
             elem.click()
-            time.sleep(2)
+            time.sleep(5)
             delete_btn = driver.find_element(
-                By.XPATH, '//*[@id="options_bucket"]/div[8]/ul/li[4]/details/summary')
+                By.XPATH, '//*[@id="options_bucket"]/div[9]/ul/li[4]/details/summary')
             delete_btn.click()
             delete = driver.find_element(
-                By.XPATH, '//*[@id="options_bucket"]/div[8]/ul/li[4]/details/details-dialog/div[3]/form/p/input')
-            delete.send_keys(repo)
+                By.XPATH, '//*[@id="options_bucket"]/div[9]/ul/li[4]/details/details-dialog/div[3]/form/p/input')
+            delete.send_keys(f"{username}/{repo}")
             delete_btn = driver.find_element(
-                By.XPATH, '//*[@id="options_bucket"]/div[8]/ul/li[4]/details/details-dialog/div[3]/form/button')
+                By.XPATH, '//*[@id="options_bucket"]/div[9]/ul/li[4]/details/details-dialog/div[3]/form/button')
             delete_btn.click()
 
             loader.stop()
